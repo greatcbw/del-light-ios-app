@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E58FF54DFBB12046CE607796 /* Pods_DelLight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E52E781DCF6AFD6B9E351B /* Pods_DelLight.framework */; };
+		EF02591D28D8BF98007B50CA /* DelLightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02591C28D8BF98007B50CA /* DelLightUITests.swift */; };
+		EF02591F28D8BF98007B50CA /* DelLightUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02591E28D8BF98007B50CA /* DelLightUITestsLaunchTests.swift */; };
+		EF66415328D8B4990057A10A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF66415228D8B4990057A10A /* AppDelegate.swift */; };
+		EF66415528D8B4990057A10A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF66415428D8B4990057A10A /* SceneDelegate.swift */; };
+		EF66415728D8B4990057A10A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF66415628D8B4990057A10A /* ViewController.swift */; };
+		EF66415A28D8B49A0057A10A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF66415828D8B49A0057A10A /* Main.storyboard */; };
+		EF66415C28D8B49B0057A10A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF66415B28D8B49B0057A10A /* Assets.xcassets */; };
+		EF66415F28D8B49B0057A10A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF66415D28D8B49B0057A10A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF02592028D8BF98007B50CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF66414728D8B4990057A10A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF66414E28D8B4990057A10A;
+			remoteInfo = DelLight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C78C420155075B821421FAF /* Pods-DelLight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelLight.release.xcconfig"; path = "Target Support Files/Pods-DelLight/Pods-DelLight.release.xcconfig"; sourceTree = "<group>"; };
+		A7095BB24E229F7CA31E3E61 /* Pods-DelLight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelLight.debug.xcconfig"; path = "Target Support Files/Pods-DelLight/Pods-DelLight.debug.xcconfig"; sourceTree = "<group>"; };
+		C1E52E781DCF6AFD6B9E351B /* Pods_DelLight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DelLight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF02591A28D8BF98007B50CA /* DelLightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelLightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF02591C28D8BF98007B50CA /* DelLightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelLightUITests.swift; sourceTree = "<group>"; };
+		EF02591E28D8BF98007B50CA /* DelLightUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelLightUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EF66414F28D8B4990057A10A /* DelLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DelLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF66415228D8B4990057A10A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF66415428D8B4990057A10A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EF66415628D8B4990057A10A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF66415928D8B49A0057A10A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF66415B28D8B49B0057A10A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF66415E28D8B49B0057A10A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF66416028D8B49B0057A10A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF02591728D8BF98007B50CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF66414C28D8B4990057A10A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58FF54DFBB12046CE607796 /* Pods_DelLight.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48D62F5E4401F38A6BEEFA19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7095BB24E229F7CA31E3E61 /* Pods-DelLight.debug.xcconfig */,
+				1C78C420155075B821421FAF /* Pods-DelLight.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9FE7DB77980DE5831384EF1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1E52E781DCF6AFD6B9E351B /* Pods_DelLight.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF02591B28D8BF98007B50CA /* DelLightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF02591C28D8BF98007B50CA /* DelLightUITests.swift */,
+				EF02591E28D8BF98007B50CA /* DelLightUITestsLaunchTests.swift */,
+			);
+			path = DelLightUITests;
+			sourceTree = "<group>";
+		};
+		EF66414628D8B4990057A10A = {
+			isa = PBXGroup;
+			children = (
+				EF66415128D8B4990057A10A /* DelLight */,
+				EF02591B28D8BF98007B50CA /* DelLightUITests */,
+				EF66415028D8B4990057A10A /* Products */,
+				48D62F5E4401F38A6BEEFA19 /* Pods */,
+				9FE7DB77980DE5831384EF1A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF66415028D8B4990057A10A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF66414F28D8B4990057A10A /* DelLight.app */,
+				EF02591A28D8BF98007B50CA /* DelLightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF66415128D8B4990057A10A /* DelLight */ = {
+			isa = PBXGroup;
+			children = (
+				EF66416A28D8BC1C0057A10A /* Source */,
+				EF66416928D8BBED0057A10A /* Resource */,
+				EF66416028D8B49B0057A10A /* Info.plist */,
+			);
+			path = DelLight;
+			sourceTree = "<group>";
+		};
+		EF66416628D8BBB80057A10A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF66415628D8B4990057A10A /* ViewController.swift */,
+				EF66415828D8B49A0057A10A /* Main.storyboard */,
+				EF66415D28D8B49B0057A10A /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EF66416728D8BBC50057A10A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EF66416828D8BBE70057A10A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF66416928D8BBED0057A10A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EF66415B28D8B49B0057A10A /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		EF66416A28D8BC1C0057A10A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				EF66415228D8B4990057A10A /* AppDelegate.swift */,
+				EF66415428D8B4990057A10A /* SceneDelegate.swift */,
+				EF66416828D8BBE70057A10A /* Model */,
+				EF66416628D8BBB80057A10A /* View */,
+				EF66416728D8BBC50057A10A /* ViewModel */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF02591928D8BF98007B50CA /* DelLightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF02592228D8BF98007B50CA /* Build configuration list for PBXNativeTarget "DelLightUITests" */;
+			buildPhases = (
+				EF02591628D8BF98007B50CA /* Sources */,
+				EF02591728D8BF98007B50CA /* Frameworks */,
+				EF02591828D8BF98007B50CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF02592128D8BF98007B50CA /* PBXTargetDependency */,
+			);
+			name = DelLightUITests;
+			productName = DelLightUITests;
+			productReference = EF02591A28D8BF98007B50CA /* DelLightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		EF66414E28D8B4990057A10A /* DelLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF66416328D8B49B0057A10A /* Build configuration list for PBXNativeTarget "DelLight" */;
+			buildPhases = (
+				3F22476A5230BCBA45491C8A /* [CP] Check Pods Manifest.lock */,
+				EF66414B28D8B4990057A10A /* Sources */,
+				EF66414C28D8B4990057A10A /* Frameworks */,
+				EF66414D28D8B4990057A10A /* Resources */,
+				4F55CCC0B5F8043E32AB945C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DelLight;
+			productName = DelLight;
+			productReference = EF66414F28D8B4990057A10A /* DelLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF66414728D8B4990057A10A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					EF02591928D8BF98007B50CA = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EF66414E28D8B4990057A10A;
+					};
+					EF66414E28D8B4990057A10A = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = EF66414A28D8B4990057A10A /* Build configuration list for PBXProject "DelLight" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF66414628D8B4990057A10A;
+			productRefGroup = EF66415028D8B4990057A10A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF66414E28D8B4990057A10A /* DelLight */,
+				EF02591928D8BF98007B50CA /* DelLightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF02591828D8BF98007B50CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF66414D28D8B4990057A10A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF66415F28D8B49B0057A10A /* LaunchScreen.storyboard in Resources */,
+				EF66415C28D8B49B0057A10A /* Assets.xcassets in Resources */,
+				EF66415A28D8B49A0057A10A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F22476A5230BCBA45491C8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DelLight-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F55CCC0B5F8043E32AB945C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DelLight/Pods-DelLight-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DelLight/Pods-DelLight-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DelLight/Pods-DelLight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF02591628D8BF98007B50CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF02591F28D8BF98007B50CA /* DelLightUITestsLaunchTests.swift in Sources */,
+				EF02591D28D8BF98007B50CA /* DelLightUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF66414B28D8B4990057A10A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF66415728D8B4990057A10A /* ViewController.swift in Sources */,
+				EF66415328D8B4990057A10A /* AppDelegate.swift in Sources */,
+				EF66415528D8B4990057A10A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF02592128D8BF98007B50CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF66414E28D8B4990057A10A /* DelLight */;
+			targetProxy = EF02592028D8BF98007B50CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF66415828D8B49A0057A10A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF66415928D8B49A0057A10A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF66415D28D8B49B0057A10A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF66415E28D8B49B0057A10A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF02592328D8BF98007B50CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FL4QTRRKMD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.delCorp.delLight.DelLightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DelLight;
+			};
+			name = Debug;
+		};
+		EF02592428D8BF98007B50CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FL4QTRRKMD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.delCorp.delLight.DelLightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DelLight;
+			};
+			name = Release;
+		};
+		EF66416128D8B49B0057A10A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF66416228D8B49B0057A10A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF66416428D8B49B0057A10A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7095BB24E229F7CA31E3E61 /* Pods-DelLight.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FL4QTRRKMD;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DelLight/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.delCorp.DelLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EF66416528D8B49B0057A10A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C78C420155075B821421FAF /* Pods-DelLight.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FL4QTRRKMD;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DelLight/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.delCorp.DelLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF02592228D8BF98007B50CA /* Build configuration list for PBXNativeTarget "DelLightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF02592328D8BF98007B50CA /* Debug */,
+				EF02592428D8BF98007B50CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF66414A28D8B4990057A10A /* Build configuration list for PBXProject "DelLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF66416128D8B49B0057A10A /* Debug */,
+				EF66416228D8B49B0057A10A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF66416328D8B49B0057A10A /* Build configuration list for PBXNativeTarget "DelLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF66416428D8B49B0057A10A /* Debug */,
+				EF66416528D8B49B0057A10A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF66414728D8B4990057A10A /* Project object */;
+}
