@@ -1,1 +1,1 @@
-"# del-light-ios-app v1" 
+"# del-lite-ios-app v1" 
