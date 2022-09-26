@@ -34,10 +34,10 @@
 		1C78C420155075B821421FAF /* Pods-DelLight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelLight.release.xcconfig"; path = "Target Support Files/Pods-DelLight/Pods-DelLight.release.xcconfig"; sourceTree = "<group>"; };
 		A7095BB24E229F7CA31E3E61 /* Pods-DelLight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelLight.debug.xcconfig"; path = "Target Support Files/Pods-DelLight/Pods-DelLight.debug.xcconfig"; sourceTree = "<group>"; };
 		C1E52E781DCF6AFD6B9E351B /* Pods_DelLight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DelLight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF02591A28D8BF98007B50CA /* DelLightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelLightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF02591A28D8BF98007B50CA /* DEL LiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DEL LiteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF02591C28D8BF98007B50CA /* DelLightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelLightUITests.swift; sourceTree = "<group>"; };
 		EF02591E28D8BF98007B50CA /* DelLightUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelLightUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		EF66414F28D8B4990057A10A /* DelLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DelLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF66414F28D8B4990057A10A /* DEL Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DEL Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF66415228D8B4990057A10A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF66415428D8B4990057A10A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EF66415628D8B4990057A10A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,8 +108,8 @@
 		EF66415028D8B4990057A10A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF66414F28D8B4990057A10A /* DelLight.app */,
-				EF02591A28D8BF98007B50CA /* DelLightUITests.xctest */,
+				EF66414F28D8B4990057A10A /* DEL Lite.app */,
+				EF02591A28D8BF98007B50CA /* DEL LiteUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -181,9 +181,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EF02591928D8BF98007B50CA /* DelLightUITests */ = {
+		EF02591928D8BF98007B50CA /* DEL LiteUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF02592228D8BF98007B50CA /* Build configuration list for PBXNativeTarget "DelLightUITests" */;
+			buildConfigurationList = EF02592228D8BF98007B50CA /* Build configuration list for PBXNativeTarget "DEL LiteUITests" */;
 			buildPhases = (
 				EF02591628D8BF98007B50CA /* Sources */,
 				EF02591728D8BF98007B50CA /* Frameworks */,
@@ -194,14 +194,14 @@
 			dependencies = (
 				EF02592128D8BF98007B50CA /* PBXTargetDependency */,
 			);
-			name = DelLightUITests;
+			name = "DEL LiteUITests";
 			productName = DelLightUITests;
-			productReference = EF02591A28D8BF98007B50CA /* DelLightUITests.xctest */;
+			productReference = EF02591A28D8BF98007B50CA /* DEL LiteUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		EF66414E28D8B4990057A10A /* DelLight */ = {
+		EF66414E28D8B4990057A10A /* DEL Lite */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF66416328D8B49B0057A10A /* Build configuration list for PBXNativeTarget "DelLight" */;
+			buildConfigurationList = EF66416328D8B49B0057A10A /* Build configuration list for PBXNativeTarget "DEL Lite" */;
 			buildPhases = (
 				3F22476A5230BCBA45491C8A /* [CP] Check Pods Manifest.lock */,
 				EF66414B28D8B4990057A10A /* Sources */,
@@ -213,9 +213,9 @@
 			);
 			dependencies = (
 			);
-			name = DelLight;
+			name = "DEL Lite";
 			productName = DelLight;
-			productReference = EF66414F28D8B4990057A10A /* DelLight.app */;
+			productReference = EF66414F28D8B4990057A10A /* DEL Lite.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -237,7 +237,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EF66414A28D8B4990057A10A /* Build configuration list for PBXProject "DelLight" */;
+			buildConfigurationList = EF66414A28D8B4990057A10A /* Build configuration list for PBXProject "DEL Lite" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -250,8 +250,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF66414E28D8B4990057A10A /* DelLight */,
-				EF02591928D8BF98007B50CA /* DelLightUITests */,
+				EF66414E28D8B4990057A10A /* DEL Lite */,
+				EF02591928D8BF98007B50CA /* DEL LiteUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -345,7 +345,7 @@
 /* Begin PBXTargetDependency section */
 		EF02592128D8BF98007B50CA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EF66414E28D8B4990057A10A /* DelLight */;
+			target = EF66414E28D8B4990057A10A /* DEL Lite */;
 			targetProxy = EF02592028D8BF98007B50CA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -547,7 +547,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.del.DelLight;
+				PRODUCT_BUNDLE_IDENTIFIER = com.del.Dellite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -581,7 +581,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.del.DelLight;
+				PRODUCT_BUNDLE_IDENTIFIER = com.del.Dellite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -595,7 +595,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EF02592228D8BF98007B50CA /* Build configuration list for PBXNativeTarget "DelLightUITests" */ = {
+		EF02592228D8BF98007B50CA /* Build configuration list for PBXNativeTarget "DEL LiteUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF02592328D8BF98007B50CA /* Debug */,
@@ -604,7 +604,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF66414A28D8B4990057A10A /* Build configuration list for PBXProject "DelLight" */ = {
+		EF66414A28D8B4990057A10A /* Build configuration list for PBXProject "DEL Lite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF66416128D8B49B0057A10A /* Debug */,
@@ -613,7 +613,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF66416328D8B49B0057A10A /* Build configuration list for PBXNativeTarget "DelLight" */ = {
+		EF66416328D8B49B0057A10A /* Build configuration list for PBXNativeTarget "DEL Lite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF66416428D8B49B0057A10A /* Debug */,
