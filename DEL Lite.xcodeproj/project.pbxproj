@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E58FF54DFBB12046CE607796 /* Pods_DelLight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E52E781DCF6AFD6B9E351B /* Pods_DelLight.framework */; };
+		77EE1E48193521CC694DA449 /* Pods_DEL_Lite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A86F5E518002B2FFF4375DE4 /* Pods_DEL_Lite.framework */; };
 		EF02591D28D8BF98007B50CA /* DelLightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02591C28D8BF98007B50CA /* DelLightUITests.swift */; };
 		EF02591F28D8BF98007B50CA /* DelLightUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02591E28D8BF98007B50CA /* DelLightUITestsLaunchTests.swift */; };
 		EF66415328D8B4990057A10A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF66415228D8B4990057A10A /* AppDelegate.swift */; };
 		EF66415528D8B4990057A10A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF66415428D8B4990057A10A /* SceneDelegate.swift */; };
-		EF66415728D8B4990057A10A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF66415628D8B4990057A10A /* ViewController.swift */; };
+		EF66415728D8B4990057A10A /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF66415628D8B4990057A10A /* MainVC.swift */; };
 		EF66415A28D8B49A0057A10A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF66415828D8B49A0057A10A /* Main.storyboard */; };
 		EF66415C28D8B49B0057A10A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF66415B28D8B49B0057A10A /* Assets.xcassets */; };
 		EF66415F28D8B49B0057A10A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF66415D28D8B49B0057A10A /* LaunchScreen.storyboard */; };
+		EF9669D028E1E86D0056EF50 /* MainVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9669CF28E1E86D0056EF50 /* MainVM.swift */; };
+		EF9669D228E1E9A90056EF50 /* RegistBLEVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9669D128E1E9A90056EF50 /* RegistBLEVC.swift */; };
+		EF9669D428E1E9B30056EF50 /* RegistBLEVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9669D328E1E9B30056EF50 /* RegistBLEVM.swift */; };
 		EFF59E7A28DA137100AA11A5 /* NaviView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF59E7928DA137100AA11A5 /* NaviView.swift */; };
 		EFF59E7C28DA166300AA11A5 /* CommonEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF59E7B28DA166300AA11A5 /* CommonEmptyView.swift */; };
 /* End PBXBuildFile section */
@@ -33,18 +36,23 @@
 /* Begin PBXFileReference section */
 		1C78C420155075B821421FAF /* Pods-DelLight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelLight.release.xcconfig"; path = "Target Support Files/Pods-DelLight/Pods-DelLight.release.xcconfig"; sourceTree = "<group>"; };
 		A7095BB24E229F7CA31E3E61 /* Pods-DelLight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelLight.debug.xcconfig"; path = "Target Support Files/Pods-DelLight/Pods-DelLight.debug.xcconfig"; sourceTree = "<group>"; };
-		C1E52E781DCF6AFD6B9E351B /* Pods_DelLight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DelLight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A86F5E518002B2FFF4375DE4 /* Pods_DEL_Lite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DEL_Lite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED87593C3ED6BC3BF34DA739 /* Pods-DEL Lite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DEL Lite.release.xcconfig"; path = "Target Support Files/Pods-DEL Lite/Pods-DEL Lite.release.xcconfig"; sourceTree = "<group>"; };
+		EEAFC71729ADA55B3D3AD119 /* Pods-DEL Lite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DEL Lite.debug.xcconfig"; path = "Target Support Files/Pods-DEL Lite/Pods-DEL Lite.debug.xcconfig"; sourceTree = "<group>"; };
 		EF02591A28D8BF98007B50CA /* DEL LiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DEL LiteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF02591C28D8BF98007B50CA /* DelLightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelLightUITests.swift; sourceTree = "<group>"; };
 		EF02591E28D8BF98007B50CA /* DelLightUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelLightUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EF66414F28D8B4990057A10A /* DEL Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DEL Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF66415228D8B4990057A10A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF66415428D8B4990057A10A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EF66415628D8B4990057A10A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF66415628D8B4990057A10A /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		EF66415928D8B49A0057A10A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF66415B28D8B49B0057A10A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF66415E28D8B49B0057A10A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF66416028D8B49B0057A10A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF9669CF28E1E86D0056EF50 /* MainVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVM.swift; sourceTree = "<group>"; };
+		EF9669D128E1E9A90056EF50 /* RegistBLEVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistBLEVC.swift; sourceTree = "<group>"; };
+		EF9669D328E1E9B30056EF50 /* RegistBLEVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistBLEVM.swift; sourceTree = "<group>"; };
 		EFF59E7928DA137100AA11A5 /* NaviView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviView.swift; sourceTree = "<group>"; };
 		EFF59E7B28DA166300AA11A5 /* CommonEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonEmptyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E58FF54DFBB12046CE607796 /* Pods_DelLight.framework in Frameworks */,
+				77EE1E48193521CC694DA449 /* Pods_DEL_Lite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +81,8 @@
 			children = (
 				A7095BB24E229F7CA31E3E61 /* Pods-DelLight.debug.xcconfig */,
 				1C78C420155075B821421FAF /* Pods-DelLight.release.xcconfig */,
+				EEAFC71729ADA55B3D3AD119 /* Pods-DEL Lite.debug.xcconfig */,
+				ED87593C3ED6BC3BF34DA739 /* Pods-DEL Lite.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -80,7 +90,7 @@
 		9FE7DB77980DE5831384EF1A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C1E52E781DCF6AFD6B9E351B /* Pods_DelLight.framework */,
+				A86F5E518002B2FFF4375DE4 /* Pods_DEL_Lite.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -128,9 +138,10 @@
 		EF66416628D8BBB80057A10A /* View */ = {
 			isa = PBXGroup;
 			children = (
-				EF66415628D8B4990057A10A /* ViewController.swift */,
+				EF66415628D8B4990057A10A /* MainVC.swift */,
 				EF66415828D8B49A0057A10A /* Main.storyboard */,
 				EF66415D28D8B49B0057A10A /* LaunchScreen.storyboard */,
+				EF9669D128E1E9A90056EF50 /* RegistBLEVC.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -138,6 +149,8 @@
 		EF66416728D8BBC50057A10A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				EF9669CF28E1E86D0056EF50 /* MainVM.swift */,
+				EF9669D328E1E9B30056EF50 /* RegistBLEVM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -292,7 +305,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DelLight-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DEL Lite-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -305,15 +318,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DelLight/Pods-DelLight-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DEL Lite/Pods-DEL Lite-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DelLight/Pods-DelLight-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DEL Lite/Pods-DEL Lite-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DelLight/Pods-DelLight-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DEL Lite/Pods-DEL Lite-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -332,7 +345,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF66415728D8B4990057A10A /* ViewController.swift in Sources */,
+				EF9669D228E1E9A90056EF50 /* RegistBLEVC.swift in Sources */,
+				EF9669D428E1E9B30056EF50 /* RegistBLEVM.swift in Sources */,
+				EF66415728D8B4990057A10A /* MainVC.swift in Sources */,
+				EF9669D028E1E86D0056EF50 /* MainVM.swift in Sources */,
 				EFF59E7C28DA166300AA11A5 /* CommonEmptyView.swift in Sources */,
 				EF66415328D8B4990057A10A /* AppDelegate.swift in Sources */,
 				EFF59E7A28DA137100AA11A5 /* NaviView.swift in Sources */,
@@ -526,7 +542,7 @@
 		};
 		EF66416428D8B49B0057A10A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7095BB24E229F7CA31E3E61 /* Pods-DelLight.debug.xcconfig */;
+			baseConfigurationReference = EEAFC71729ADA55B3D3AD119 /* Pods-DEL Lite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -560,7 +576,7 @@
 		};
 		EF66416528D8B49B0057A10A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C78C420155075B821421FAF /* Pods-DelLight.release.xcconfig */;
+			baseConfigurationReference = ED87593C3ED6BC3BF34DA739 /* Pods-DEL Lite.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

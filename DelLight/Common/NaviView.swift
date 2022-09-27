@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SnapKit
 
 @IBDesignable
 class NaviView: UIView {
@@ -48,5 +49,7 @@ class NaviView: UIView {
         topView.backgroundColor = defaultColor
         
     }
+    
+    var useBackButton: Bool = false
 
 }

@@ -1,8 +1,8 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
-# platform :ios, '13.0'
+platform :ios, '13.4'
 
-target 'DelLight' do
+target 'DEL Lite' do
   # Comment the next line if you don't want to use dynamic frameworks
   pod 'RxSwift', '6.5.0'
   pod 'RxCocoa', '6.5.0'
@@ -10,5 +10,5 @@ target 'DelLight' do
   pod 'ReactorKit'
   use_frameworks!
 
-  # Pods for DelLight
+  # Pods for DEL Lite
 end
