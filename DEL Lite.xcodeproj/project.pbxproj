@@ -16,6 +16,7 @@
 		EF66415A28D8B49A0057A10A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF66415828D8B49A0057A10A /* Main.storyboard */; };
 		EF66415C28D8B49B0057A10A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF66415B28D8B49B0057A10A /* Assets.xcassets */; };
 		EF66415F28D8B49B0057A10A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF66415D28D8B49B0057A10A /* LaunchScreen.storyboard */; };
+		EF667D6428EB3D07003C86B3 /* BluetoothSerial.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF667D6328EB3D07003C86B3 /* BluetoothSerial.swift */; };
 		EF9669D028E1E86D0056EF50 /* MainVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9669CF28E1E86D0056EF50 /* MainVM.swift */; };
 		EF9669D228E1E9A90056EF50 /* RegistBLEVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9669D128E1E9A90056EF50 /* RegistBLEVC.swift */; };
 		EF9669D428E1E9B30056EF50 /* RegistBLEVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9669D328E1E9B30056EF50 /* RegistBLEVM.swift */; };
@@ -50,6 +51,7 @@
 		EF66415B28D8B49B0057A10A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF66415E28D8B49B0057A10A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF66416028D8B49B0057A10A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF667D6328EB3D07003C86B3 /* BluetoothSerial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothSerial.swift; sourceTree = "<group>"; };
 		EF9669CF28E1E86D0056EF50 /* MainVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVM.swift; sourceTree = "<group>"; };
 		EF9669D128E1E9A90056EF50 /* RegistBLEVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistBLEVC.swift; sourceTree = "<group>"; };
 		EF9669D328E1E9B30056EF50 /* RegistBLEVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistBLEVM.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 		EF66416A28D8BC1C0057A10A /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				EF667D6228EB3CD7003C86B3 /* BLEManager */,
 				EF66415228D8B4990057A10A /* AppDelegate.swift */,
 				EF66415428D8B4990057A10A /* SceneDelegate.swift */,
 				EF66416828D8BBE70057A10A /* Model */,
@@ -180,6 +183,14 @@
 				EF66416728D8BBC50057A10A /* ViewModel */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		EF667D6228EB3CD7003C86B3 /* BLEManager */ = {
+			isa = PBXGroup;
+			children = (
+				EF667D6328EB3D07003C86B3 /* BluetoothSerial.swift */,
+			);
+			path = BLEManager;
 			sourceTree = "<group>";
 		};
 		EFF59E7828DA136700AA11A5 /* Common */ = {
@@ -353,6 +364,7 @@
 				EF66415328D8B4990057A10A /* AppDelegate.swift in Sources */,
 				EFF59E7A28DA137100AA11A5 /* NaviView.swift in Sources */,
 				EF66415528D8B4990057A10A /* SceneDelegate.swift in Sources */,
+				EF667D6428EB3D07003C86B3 /* BluetoothSerial.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

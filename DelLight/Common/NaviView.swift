@@ -1,6 +1,6 @@
 //
 //  NaviView.swift
-//  DelLight
+//  DEl Lite
 //
 //  Created by 강동영 on 2022/09/21.
 //
@@ -41,7 +41,7 @@ class NaviView: UIView {
         topView.translatesAutoresizingMaskIntoConstraints = false
         
         self.addSubview(topView)
-        topView.heightAnchor.constraint(equalToConstant: 50).isActive = true
+        topView.heightAnchor.constraint(equalToConstant: 60).isActive = true
         topView.rightAnchor.constraint(equalTo: self.safeAreaLayoutGuide.rightAnchor).isActive = true
         topView.leftAnchor.constraint(equalTo: self.safeAreaLayoutGuide.leftAnchor).isActive = true
         topView.bottomAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor).isActive = true
