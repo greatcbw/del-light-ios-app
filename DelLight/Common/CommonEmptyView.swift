@@ -12,7 +12,19 @@ import SnapKit
  */
 class NoneSearchDataTableViewFooter:UIView{
     
-    let emptyLabel = UILabel()
+    lazy var emptyLabel: UILabel = {
+        let label = UILabel()
+        
+        label.numberOfLines = 0
+        label.lineBreakMode = .byWordWrapping
+        label.textAlignment = .center
+        label.textColor = .darkGray
+        label.sizeToFit()
+        
+        return label
+    }()
+    
+    let view: UIView = UIView(frame: CGRect(x: 0, y: 0, width: 375, height: 89))
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -25,23 +37,21 @@ class NoneSearchDataTableViewFooter:UIView{
     }
     
     func commonInitialization() {
-        let view: UIView = UIView(frame: CGRect(x: 0, y: 0, width: 375, height: 89))
         
-        emptyLabel.numberOfLines = 0
-        emptyLabel.lineBreakMode = .byWordWrapping
-        emptyLabel.textAlignment = .center
-        emptyLabel.text = "등록된 조명이 없습니다.\n화면 아래의 버튼을 눌러 조명을 검색하세요."
-        emptyLabel.sizeToFit()
+        view.frame = self.bounds
+        view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        self.addSubview(view)
+        self.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+    }
+    
+    func mainVCEmptyLabel() {
+        
+        emptyLabel.text = "There are no registered lights.\nClick the button at the bottom of the screen to search for lights.".localized
         view.addSubview(emptyLabel)
         
         emptyLabel.snp.makeConstraints { make in
             make.center.equalTo(view)
         }
-
-        view.frame = self.bounds
-        view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        self.addSubview(view)
-        self.autoresizingMask = [.flexibleWidth, .flexibleHeight]
     }
    
 }

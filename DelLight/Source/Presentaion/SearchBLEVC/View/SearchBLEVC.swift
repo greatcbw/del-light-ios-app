@@ -1,5 +1,5 @@
 //
-//  RegistBLEVC.swift
+//  SearchBLEVC.swift
 //  DEL Lite
 //
 //  Created by 강동영 on 2022/09/26.
@@ -10,9 +10,10 @@ import RxSwift
 import CoreBluetooth
 import os
 
-class RegistBLEVC: UIViewController {
+class SearchBLEVC: UIViewController {
     
     @IBOutlet weak var backButton: UIButton!
+    @IBOutlet weak var deviceTableview: UITableView!
     
     private var bag = DisposeBag()
     
@@ -22,6 +23,7 @@ class RegistBLEVC: UIViewController {
         super.viewDidLoad()
         centralManager = CBCentralManager(delegate: self, queue: nil, options: [CBCentralManagerOptionShowPowerAlertKey: true])
         
+        configureTableView()
         bindComponent()
     }
     
@@ -30,6 +32,13 @@ class RegistBLEVC: UIViewController {
         
         centralManager.stopScan()
         os_log("Scanning stopped")
+    }
+    
+    private func configureTableView() {
+        
+        deviceTableview.delegate = self
+        deviceTableview.dataSource = self
+        deviceTableview.rowHeight = UITableView.automaticDimension
     }
     
     private func bindComponent() {
@@ -46,7 +55,7 @@ class RegistBLEVC: UIViewController {
 
 }
 
-extension RegistBLEVC: CBCentralManagerDelegate, CBPeripheralDelegate {
+extension SearchBLEVC: CBCentralManagerDelegate, CBPeripheralDelegate {
     
     func centralManagerDidUpdateState(_ central: CBCentralManager) {
         switch central.state {
@@ -97,4 +106,38 @@ extension RegistBLEVC: CBCentralManagerDelegate, CBPeripheralDelegate {
         
         
     }
+}
+
+// MARK: UITableViewDataSource, UITableViewDelegate Method
+extension SearchBLEVC: UITableViewDataSource, UITableViewDelegate {
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+        return 3
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "SearchedDeviceCell")!
+        guard let convertedCell = cell as? SearchedDeviceCell else { return cell }
+        
+        convertedCell.delegate = self
+        return convertedCell
+    }
+}
+
+extension SearchBLEVC: RegistCellAction {
+    
+    func refresh() {
+        
+        deviceTableview.reloadData()
+    }
+    
+    func goRegist() {
+        guard let vc = self.storyboard?.instantiateViewController(withIdentifier: "GroupRegistVC") else { return }
+        
+        self.navigationController?.pushViewController(vc, animated: true)       
+    }
+    
+    
 }

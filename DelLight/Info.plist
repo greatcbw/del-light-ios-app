@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
 	<key>NSBluetoothAlwaysUsageDescription</key>
 	<string>DEL Lite에서 블루투스 기능에 접근하려고합니다. 허락하시겠습니까 ?</string>
 	<key>UIApplicationSceneManifest</key>

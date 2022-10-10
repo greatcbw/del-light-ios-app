@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  DEL Lite
+
+  Created by 강동영 on 2022/10/10.
+  
+*/
+// MARK: Common String
+"Confirm" = "확인";
+"Cancel" = "취소";
+
+// MARK: Empty View
+"There are no registered lights.\nClick the button at the bottom of the screen to search for lights." = "등록된 조명이 없습니다.\n화면 아래의 버튼을 눌러 조명을 검색하세요.";
+
+// MARK: Add Group
+"Add Group" = "그룹 추가";
+"Please enter a group name." = "그룹 명을 입력해주세요.";
