@@ -1,4 +1,5 @@
 PODS:
+  - DropDown (2.3.13)
   - ReactorKit (3.2.0):
     - RxSwift (~> 6.0)
     - WeakMapTable (~> 1.1)
@@ -12,6 +13,7 @@ PODS:
   - WeakMapTable (1.2.0)
 
 DEPENDENCIES:
+  - DropDown
   - ReactorKit
   - RxCocoa (= 6.5.0)
   - RxSwift (= 6.5.0)
@@ -19,6 +21,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - DropDown
     - ReactorKit
     - RxCocoa
     - RxRelay
@@ -27,6 +30,7 @@ SPEC REPOS:
     - WeakMapTable
 
 SPEC CHECKSUMS:
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
   ReactorKit: e8b11d6b9c415405f381669b095c154a05b59eca
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
@@ -34,6 +38,6 @@ SPEC CHECKSUMS:
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   WeakMapTable: 05c694ce8439a7a9ebabb56187287a63c57673d6
 
-PODFILE CHECKSUM: ddd223b5ad907776f893199d468cf80f0ce8099b
+PODFILE CHECKSUM: 10e12187e19d48a5cc6a1e0f3748537454b1f792
 
 COCOAPODS: 1.11.3

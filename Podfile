@@ -8,6 +8,7 @@ target 'DEL Lite' do
   pod 'RxCocoa', '6.5.0'
   pod 'SnapKit', '5.6.0'
   pod 'ReactorKit'
+  pod 'DropDown'
   use_frameworks!
 
   # Pods for DEL Lite
