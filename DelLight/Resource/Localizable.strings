@@ -15,3 +15,10 @@
 // MARK: Add Group
 "Add Group" = "그룹 추가";
 "Please enter a group name." = "그룹 명을 입력해주세요.";
+
+// MARK: Manage Group
+"light_normal" = "기본조명";
+"light_mood" = "감성조명";
+"light_stand" = "스탠드";
+"light_wallLamp" = "벽등";
+"light_etc" = "기타";

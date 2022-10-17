@@ -26,6 +26,7 @@
 		EFE80AC428F3D5F0008EB4CF /* SearchedDeviceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE80AC328F3D5F0008EB4CF /* SearchedDeviceCell.swift */; };
 		EFE80AC728F3E899008EB4CF /* Ex+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE80AC628F3E899008EB4CF /* Ex+String.swift */; };
 		EFE80AC928F3E8F3008EB4CF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFE80AC828F3E8F3008EB4CF /* Localizable.strings */; };
+		EFEF12E628FD9D680059E53E /* DeviceGroupManageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEF12E528FD9D680059E53E /* DeviceGroupManageVC.swift */; };
 		EFF59E7A28DA137100AA11A5 /* NaviView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF59E7928DA137100AA11A5 /* NaviView.swift */; };
 		EFF59E7C28DA166300AA11A5 /* CommonEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF59E7B28DA166300AA11A5 /* CommonEmptyView.swift */; };
 /* End PBXBuildFile section */
@@ -68,6 +69,7 @@
 		EFE80AC328F3D5F0008EB4CF /* SearchedDeviceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchedDeviceCell.swift; sourceTree = "<group>"; };
 		EFE80AC628F3E899008EB4CF /* Ex+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+String.swift"; sourceTree = "<group>"; };
 		EFE80AC828F3E8F3008EB4CF /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		EFEF12E528FD9D680059E53E /* DeviceGroupManageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceGroupManageVC.swift; sourceTree = "<group>"; };
 		EFF59E7928DA137100AA11A5 /* NaviView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviView.swift; sourceTree = "<group>"; };
 		EFF59E7B28DA166300AA11A5 /* CommonEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonEmptyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -229,6 +231,7 @@
 				EFE80ABE28F3D50F008EB4CF /* MainVC */,
 				EF66416628D8BBB80057A10A /* SearchBLEVC */,
 				EFE1A20F28F3F6EC00E9111F /* GroupRegistVC */,
+				EFEF12E228FD9D180059E53E /* DeviceGroupManageVC */,
 			);
 			path = Presentaion;
 			sourceTree = "<group>";
@@ -282,6 +285,30 @@
 				EFE80AC628F3E899008EB4CF /* Ex+String.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		EFEF12E228FD9D180059E53E /* DeviceGroupManageVC */ = {
+			isa = PBXGroup;
+			children = (
+				EFEF12E428FD9D4B0059E53E /* View */,
+				EFEF12E328FD9D440059E53E /* ViewModel */,
+			);
+			path = DeviceGroupManageVC;
+			sourceTree = "<group>";
+		};
+		EFEF12E328FD9D440059E53E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EFEF12E428FD9D4B0059E53E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EFEF12E528FD9D680059E53E /* DeviceGroupManageVC.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		EFF59E7828DA136700AA11A5 /* Common */ = {
@@ -461,6 +488,7 @@
 				EFF59E7C28DA166300AA11A5 /* CommonEmptyView.swift in Sources */,
 				EF66415328D8B4990057A10A /* AppDelegate.swift in Sources */,
 				EFF59E7A28DA137100AA11A5 /* NaviView.swift in Sources */,
+				EFEF12E628FD9D680059E53E /* DeviceGroupManageVC.swift in Sources */,
 				EF66415528D8B4990057A10A /* SceneDelegate.swift in Sources */,
 				EF667D6428EB3D07003C86B3 /* BluetoothSerial.swift in Sources */,
 			);
