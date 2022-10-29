@@ -1,6 +1,6 @@
 //
 //  BLEManager.swift
-//  DEl Lite
+//  DEL Lite
 //
 //  Created by 강동영 on 02/10/2022.
 //
@@ -55,7 +55,7 @@ class BLEManager: NSObject, CBCentralManagerDelegate, CBPeripheralDelegate {
      TODO: 모듈 UUID 구해야함
      하나의 기기는 여러개의 serviceUUID를 가질 수도 있습니다.
      */
-    var serviceUUID = CBUUID(string: "")
+    var serviceUUID = CBUUID(string: "FFE0")
     
     /*
      characteristicUUID는 serviceUUID에 포함되어있습니다. 이를 이용하여 데이터를 송수신합니다.
@@ -84,6 +84,13 @@ class BLEManager: NSObject, CBCentralManagerDelegate, CBPeripheralDelegate {
     
     /// 기기 검색을 시작합니다. 연결이 가능한 모든 주변기기를 serviceUUID를 통해 찾아냅니다.
     func startScan() {
+        print("===========")
+        
+        print(centralManager.state == .poweredOn)
+        print(centralManager.state == .poweredOff)
+        print(centralManager.state == .unsupported)
+        print(centralManager.state == .unauthorized)
+        print(centralManager.state == .unknown)
         guard centralManager.state == .poweredOn else { return }
         
         // CBCentralManager의 메서드인 scanForPeripherals를 호출하여 연결가능한 기기들을 검색합니다. 이 떄 withService 파라미터에 nil을 입력하면 모든 종류의 기기가 검색되고, 지금과 같이 serviceUUID를 입력하면 특정 serviceUUID를 가진 기기만을 검색합니다.
@@ -141,6 +148,9 @@ class BLEManager: NSObject, CBCentralManagerDelegate, CBPeripheralDelegate {
     
     // CBCentralManagerDelegate에 포함되어 있는 메서드입니다. central 기기의 블루투스 상태가 변경될 때마다 호출됩니다. centralManager.state의 값은 켜져있을 때 .poweredOn, 꺼져있을 때 .poweredOff로 변경됩니다.
     func centralManagerDidUpdateState(_ central: CBCentralManager) {
+//        if central.state == .poweredOn {
+//            startScan()
+//        }
         pendingPeripheral = nil
         connectedPeripheral = nil
     }

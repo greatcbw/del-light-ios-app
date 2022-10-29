@@ -56,8 +56,12 @@ class SearchedDeviceCell: UITableViewCell {
             }).disposed(by: bag)
     }
     
-    func setItem() {
-        
+    /// peripheral의 이름을 파라미터로 입력받아 Cell을 update합니다.
+    func updatePeriphralsName(name : String?, RSSI: Float, UUID: UUID) {
+        guard name != nil else { return }
+        deviceName.text = name
+        deviceRSSI.text = String(RSSI)
+        deviceUUID.text = UUID.uuidString
     }
 
 }

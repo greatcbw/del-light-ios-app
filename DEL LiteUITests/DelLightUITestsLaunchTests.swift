@@ -1,13 +1,13 @@
 //
-//  DelLightUITestsLaunchTests.swift
-//  DelLightUITests
+//  DELLiteUITestsLaunchTests.swift
+//  DELLiteUITests
 //
 //  Created by 강동영 on 2022/09/20.
 //
 
 import XCTest
 
-class DelLightUITestsLaunchTests: XCTestCase {
+class DELLiteUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

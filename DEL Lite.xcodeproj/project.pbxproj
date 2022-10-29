@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		77EE1E48193521CC694DA449 /* Pods_DEL_Lite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A86F5E518002B2FFF4375DE4 /* Pods_DEL_Lite.framework */; };
 		EF02591D28D8BF98007B50CA /* DelLightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02591C28D8BF98007B50CA /* DelLightUITests.swift */; };
 		EF02591F28D8BF98007B50CA /* DelLightUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02591E28D8BF98007B50CA /* DelLightUITestsLaunchTests.swift */; };
 		EF66415328D8B4990057A10A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF66415228D8B4990057A10A /* AppDelegate.swift */; };
@@ -16,7 +15,7 @@
 		EF66415A28D8B49A0057A10A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF66415828D8B49A0057A10A /* Main.storyboard */; };
 		EF66415C28D8B49B0057A10A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF66415B28D8B49B0057A10A /* Assets.xcassets */; };
 		EF66415F28D8B49B0057A10A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF66415D28D8B49B0057A10A /* LaunchScreen.storyboard */; };
-		EF667D6428EB3D07003C86B3 /* BluetoothSerial.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF667D6328EB3D07003C86B3 /* BluetoothSerial.swift */; };
+		EF667D6428EB3D07003C86B3 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF667D6328EB3D07003C86B3 /* BLEManager.swift */; };
 		EF7A6D1728FEFB53009319E7 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A6D1628FEFB53009319E7 /* PersistenceManager.swift */; };
 		EF9669D028E1E86D0056EF50 /* MainVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9669CF28E1E86D0056EF50 /* MainVM.swift */; };
 		EF9669D228E1E9A90056EF50 /* SearchBLEVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9669D128E1E9A90056EF50 /* SearchBLEVC.swift */; };
@@ -30,6 +29,7 @@
 		EFEF12E628FD9D680059E53E /* DeviceGroupManageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEF12E528FD9D680059E53E /* DeviceGroupManageVC.swift */; };
 		EFF59E7A28DA137100AA11A5 /* NaviView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF59E7928DA137100AA11A5 /* NaviView.swift */; };
 		EFF59E7C28DA166300AA11A5 /* CommonEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF59E7B28DA166300AA11A5 /* CommonEmptyView.swift */; };
+		F684A299416252562C62C84B /* Pods_DEL_Lite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A370E9D0E51CF1465E9DF01 /* Pods_DEL_Lite.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,11 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1C78C420155075B821421FAF /* Pods-DelLight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelLight.release.xcconfig"; path = "Target Support Files/Pods-DelLight/Pods-DelLight.release.xcconfig"; sourceTree = "<group>"; };
-		A7095BB24E229F7CA31E3E61 /* Pods-DelLight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelLight.debug.xcconfig"; path = "Target Support Files/Pods-DelLight/Pods-DelLight.debug.xcconfig"; sourceTree = "<group>"; };
-		A86F5E518002B2FFF4375DE4 /* Pods_DEL_Lite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DEL_Lite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED87593C3ED6BC3BF34DA739 /* Pods-DEL Lite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DEL Lite.release.xcconfig"; path = "Target Support Files/Pods-DEL Lite/Pods-DEL Lite.release.xcconfig"; sourceTree = "<group>"; };
-		EEAFC71729ADA55B3D3AD119 /* Pods-DEL Lite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DEL Lite.debug.xcconfig"; path = "Target Support Files/Pods-DEL Lite/Pods-DEL Lite.debug.xcconfig"; sourceTree = "<group>"; };
+		2A370E9D0E51CF1465E9DF01 /* Pods_DEL_Lite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DEL_Lite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4730202660210D1CE708A9C0 /* Pods-DEL Lite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DEL Lite.debug.xcconfig"; path = "Target Support Files/Pods-DEL Lite/Pods-DEL Lite.debug.xcconfig"; sourceTree = "<group>"; };
+		8461474BC662920C90A8A744 /* Pods-DEL Lite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DEL Lite.release.xcconfig"; path = "Target Support Files/Pods-DEL Lite/Pods-DEL Lite.release.xcconfig"; sourceTree = "<group>"; };
 		EF02591A28D8BF98007B50CA /* DEL LiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DEL LiteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF02591C28D8BF98007B50CA /* DelLightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelLightUITests.swift; sourceTree = "<group>"; };
 		EF02591E28D8BF98007B50CA /* DelLightUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelLightUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -59,7 +57,7 @@
 		EF66415B28D8B49B0057A10A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF66415E28D8B49B0057A10A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF66416028D8B49B0057A10A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF667D6328EB3D07003C86B3 /* BluetoothSerial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothSerial.swift; sourceTree = "<group>"; };
+		EF667D6328EB3D07003C86B3 /* BLEManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
 		EF7A6D1628FEFB53009319E7 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 		EF9669CF28E1E86D0056EF50 /* MainVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVM.swift; sourceTree = "<group>"; };
 		EF9669D128E1E9A90056EF50 /* SearchBLEVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBLEVC.swift; sourceTree = "<group>"; };
@@ -88,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77EE1E48193521CC694DA449 /* Pods_DEL_Lite.framework in Frameworks */,
+				F684A299416252562C62C84B /* Pods_DEL_Lite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,39 +96,37 @@
 		48D62F5E4401F38A6BEEFA19 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A7095BB24E229F7CA31E3E61 /* Pods-DelLight.debug.xcconfig */,
-				1C78C420155075B821421FAF /* Pods-DelLight.release.xcconfig */,
-				EEAFC71729ADA55B3D3AD119 /* Pods-DEL Lite.debug.xcconfig */,
-				ED87593C3ED6BC3BF34DA739 /* Pods-DEL Lite.release.xcconfig */,
+				4730202660210D1CE708A9C0 /* Pods-DEL Lite.debug.xcconfig */,
+				8461474BC662920C90A8A744 /* Pods-DEL Lite.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		9FE7DB77980DE5831384EF1A /* Frameworks */ = {
+		89F3CDB0677C764636EA1485 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A86F5E518002B2FFF4375DE4 /* Pods_DEL_Lite.framework */,
+				2A370E9D0E51CF1465E9DF01 /* Pods_DEL_Lite.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EF02591B28D8BF98007B50CA /* DelLightUITests */ = {
+		EF02591B28D8BF98007B50CA /* DEL LiteUITests */ = {
 			isa = PBXGroup;
 			children = (
 				EF02591C28D8BF98007B50CA /* DelLightUITests.swift */,
 				EF02591E28D8BF98007B50CA /* DelLightUITestsLaunchTests.swift */,
 			);
-			path = DelLightUITests;
+			path = "DEL LiteUITests";
 			sourceTree = "<group>";
 		};
 		EF66414628D8B4990057A10A = {
 			isa = PBXGroup;
 			children = (
-				EF66415128D8B4990057A10A /* DelLight */,
-				EF02591B28D8BF98007B50CA /* DelLightUITests */,
+				EF66415128D8B4990057A10A /* DEL Lite */,
+				EF02591B28D8BF98007B50CA /* DEL LiteUITests */,
 				EF66415028D8B4990057A10A /* Products */,
 				48D62F5E4401F38A6BEEFA19 /* Pods */,
-				9FE7DB77980DE5831384EF1A /* Frameworks */,
+				89F3CDB0677C764636EA1485 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,7 +139,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EF66415128D8B4990057A10A /* DelLight */ = {
+		EF66415128D8B4990057A10A /* DEL Lite */ = {
 			isa = PBXGroup;
 			children = (
 				EFF59E7828DA136700AA11A5 /* Common */,
@@ -152,7 +148,7 @@
 				EF66416028D8B49B0057A10A /* Info.plist */,
 				EFE1A21628F45FB300E9111F /* Model.xcdatamodeld */,
 			);
-			path = DelLight;
+			path = "DEL Lite";
 			sourceTree = "<group>";
 		};
 		EF66416628D8BBB80057A10A /* SearchBLEVC */ = {
@@ -196,7 +192,7 @@
 		EF667D6228EB3CD7003C86B3 /* BLEManager */ = {
 			isa = PBXGroup;
 			children = (
-				EF667D6328EB3D07003C86B3 /* BluetoothSerial.swift */,
+				EF667D6328EB3D07003C86B3 /* BLEManager.swift */,
 			);
 			path = BLEManager;
 			sourceTree = "<group>";
@@ -349,11 +345,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF66416328D8B49B0057A10A /* Build configuration list for PBXNativeTarget "DEL Lite" */;
 			buildPhases = (
-				3F22476A5230BCBA45491C8A /* [CP] Check Pods Manifest.lock */,
+				DD8293DA68BDC72FCE527A60 /* [CP] Check Pods Manifest.lock */,
 				EF66414B28D8B4990057A10A /* Sources */,
 				EF66414C28D8B4990057A10A /* Frameworks */,
 				EF66414D28D8B4990057A10A /* Resources */,
-				4F55CCC0B5F8043E32AB945C /* [CP] Embed Pods Frameworks */,
+				4BB98BBC4D02677D4FEB0A24 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -424,7 +420,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3F22476A5230BCBA45491C8A /* [CP] Check Pods Manifest.lock */ = {
+		4BB98BBC4D02677D4FEB0A24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DEL Lite/Pods-DEL Lite-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DEL Lite/Pods-DEL Lite-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DEL Lite/Pods-DEL Lite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD8293DA68BDC72FCE527A60 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -444,23 +457,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4F55CCC0B5F8043E32AB945C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DEL Lite/Pods-DEL Lite-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DEL Lite/Pods-DEL Lite-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DEL Lite/Pods-DEL Lite-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -493,7 +489,7 @@
 				EFF59E7A28DA137100AA11A5 /* NaviView.swift in Sources */,
 				EFEF12E628FD9D680059E53E /* DeviceGroupManageVC.swift in Sources */,
 				EF66415528D8B4990057A10A /* SceneDelegate.swift in Sources */,
-				EF667D6428EB3D07003C86B3 /* BluetoothSerial.swift in Sources */,
+				EF667D6428EB3D07003C86B3 /* BLEManager.swift in Sources */,
 				EF7A6D1728FEFB53009319E7 /* PersistenceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -684,7 +680,7 @@
 		};
 		EF66416428D8B49B0057A10A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEAFC71729ADA55B3D3AD119 /* Pods-DEL Lite.debug.xcconfig */;
+			baseConfigurationReference = 4730202660210D1CE708A9C0 /* Pods-DEL Lite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -693,7 +689,7 @@
 				DEVELOPMENT_TEAM = FL4QTRRKMD;
 				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DelLight/Info.plist;
+				INFOPLIST_FILE = "DEL Lite/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -718,7 +714,7 @@
 		};
 		EF66416528D8B49B0057A10A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED87593C3ED6BC3BF34DA739 /* Pods-DEL Lite.release.xcconfig */;
+			baseConfigurationReference = 8461474BC662920C90A8A744 /* Pods-DEL Lite.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -727,7 +723,7 @@
 				DEVELOPMENT_TEAM = FL4QTRRKMD;
 				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DelLight/Info.plist;
+				INFOPLIST_FILE = "DEL Lite/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

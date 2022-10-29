@@ -533,7 +533,7 @@
         <!--Device Group ManageVC-->
         <scene sceneID="14q-Kl-x7t">
             <objects>
-                <viewController storyboardIdentifier="DeviceGroupManageVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="dEj-PV-pmj" customClass="DeviceGroupManageVC" customModule="DEL_Lite" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="dEj-PV-pmj" customClass="DeviceGroupManageVC" customModule="DEL_Lite" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XQm-BS-u5h">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -924,6 +924,7 @@
                     <connections>
                         <outlet property="backButton" destination="J8f-kt-Szy" id="4tg-AB-bSL"/>
                         <outlet property="deviceTableview" destination="IWC-TP-B8d" id="DKf-Ve-r2E"/>
+                        <outlet property="searchAgaginButton" destination="yed-yN-mGJ" id="oy2-tD-IGc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CVF-xH-EJM" sceneMemberID="firstResponder"/>

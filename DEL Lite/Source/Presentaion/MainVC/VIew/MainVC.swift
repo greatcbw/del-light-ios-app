@@ -31,6 +31,8 @@ class MainVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        serial = BLEManager.init()
+        
         initLayout()
         configureTableview()
         bindComponent()
